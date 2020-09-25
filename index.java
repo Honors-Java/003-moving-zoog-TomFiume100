@@ -1,14 +1,15 @@
 void setup() {
 	size(300, 300);
+  background(255);
 }
 
 void draw() {
-	 // Draw a white background
+	
   ellipseMode(CENTER);
   ellipse(mouseX, mouseY, 1, 1);
   println(mouseX, mouseY);
 
-  background(200);
+  
   // Set CENTER mode
   ellipseMode(CENTER);
   rectMode(CENTER);

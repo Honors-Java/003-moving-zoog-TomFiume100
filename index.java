@@ -35,3 +35,15 @@ void draw() {
 
   line(mouseX + 10, mouseY + 50 ,mouseX + 20, mouseY + 65);
 }
+
+void mousePressed()  {
+
+ println("Take me to your leader!!");
+
+}
+
+void keyPressed()   {
+
+ println("You will die!!");
+
+}
